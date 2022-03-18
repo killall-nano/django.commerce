@@ -370,7 +370,7 @@ def profile_update(request):
         else: 
             new_pass = request.POST["new_password"]
             repeat_new_pass = request.POST["repeat_new_password"]
-            return util.change_password(user, new_pass, repeat_new_past)
+            return util.change_password(user, new_pass, repeat_new_pass)
 
 
 
